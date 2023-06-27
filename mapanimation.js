@@ -31,11 +31,12 @@ let marker = new mapboxgl.Marker()
   .addTo(map);
 // counter here represents the index of the current bus stop
 let counter = 0;
+
 function move() {
   // TODO: move the marker on the map every 1000ms. Use the function marker.setLngLat() to update the marker coordinates
   // Use counter to access bus stops in the array busStops
   // Make sure you call move() after you increment the counter.
-  // Mueve el marcador
+   // Mueve el marcador
   marker.setLngLat(busStops[counter]);
 
   // Incrementa el counter
@@ -46,10 +47,11 @@ function move() {
   }
 }
 
+// Define a new function startMove which will be called when the button is clicked
+function startMove() {
+  // reset the counter to 0
+  counter = 0;
 
-
-
-
-
-// Inicia el movimiento del marcador
-move();
+  // start the movement
+  move();
+}
