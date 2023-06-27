@@ -5,7 +5,7 @@ Este proyecto utiliza Mapbox y JavaScript para mostrar y animar un marcador a lo
 # HOW TO RUN IT
 
 # Roadmap of future work
-
+Integrar datos en tiempo real para mostrar la ubicación actual del autobús a lo largo de la ruta, actualizando la posición del marcador en función de datos en vivo.
 # Licence information
 Copyright (c) 2023 Paula Huidobro
 
