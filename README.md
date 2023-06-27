@@ -3,7 +3,7 @@
 Este proyecto utiliza Mapbox y JavaScript para mostrar y animar un marcador a lo largo de las paradas de autobús entre MIT y Harvard.
 
 # HOW TO RUN IT
-## :checkered_flag: Instrucciones ##
+
 
 ```bash
 # Clone este proyecto (desde la terminal)
@@ -11,7 +11,7 @@ $ git clone https://github.com/betoje/0109-RealtimeBusTracker
 
 # Acceda al directorio
 $ cd 0109-RealtimeBusTracker
-
+```
 # Roadmap of future work
 Integrar datos en tiempo real para mostrar la ubicación actual del autobús a lo largo de la ruta, actualizando la posición del marcador en función de datos en vivo.
 # Licence information
